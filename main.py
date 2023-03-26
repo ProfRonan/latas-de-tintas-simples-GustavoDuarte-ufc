@@ -9,7 +9,7 @@ if cobertura > 18:
     valor_total = qtd_de_latas * 80
     print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor_total}")
     StopIteration
-if cobertura <= 18 and cobertura != 0:
+if cobertura <= 18 and cobertura > 0:
     qtd_de_latas = 1
     valor_total = qtd_de_latas * 80
     print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor_total}")
