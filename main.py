@@ -8,11 +8,11 @@ if cobertura > 18:
     qtd_de_latas = int(cobertura / 18) + 1
     valor_total = qtd_de_latas * 80
     print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor_total}")
-if cobertura <= 18 and cobertura > 1:
+if cobertura <= 18 and metros_quadrados > 0:
     qtd_de_latas = 1
     valor_total = qtd_de_latas * 80
     print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor_total}")
-if metros_quadrados == 0 or metros_quadrados == 1:
+if metros_quadrados == 0:
 # As duas variáveis qtd_de_latas e valor_total devem guardar a resposta do problema
 # Troque os zeros pelos valores corretos.
     qtd_de_latas = 0
